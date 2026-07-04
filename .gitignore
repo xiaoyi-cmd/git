@@ -1,0 +1,18 @@
+# Local Codex/session state
+.agents/
+.codex/
+
+# Generated or temporary workspace files
+work/*
+outputs/*
+
+# Keep empty workspace directories in git
+!work/.gitkeep
+!outputs/.gitkeep
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
